@@ -1,0 +1,23 @@
+:root {
+  --color-bg: #fdfdfd;
+  --color-surface: #ffffff;
+  --color-text: #2e3440;
+  --color-muted: #6c757d;
+  --color-accent: #d33682;
+  --color-link: #268bd2;
+  --color-btn-bg: #e2e6ea;
+  --color-btn-hover: #d0d7de;
+  --color-shadow: rgba(0, 0, 0, 0.08);
+}
+
+html.dark {
+  --color-bg: #282a36;
+  --color-surface: #44475a;
+  --color-text: #f8f8f2;
+  --color-muted: #6272a4;
+  --color-accent: #ff79c6;
+  --color-link: #8be9fd;
+  --color-btn-bg: #6272a4;
+  --color-btn-hover: #bd93f9;
+  --color-shadow: rgba(0, 0, 0, 0.4);
+}

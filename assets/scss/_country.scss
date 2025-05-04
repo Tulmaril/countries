@@ -1,0 +1,35 @@
+.country {
+  display: flex;
+  gap: 2rem;
+  padding: 2rem;
+  &__info {
+    flex-grow: 1;
+  }
+  .card {
+    width: 20rem;
+  }
+  &__fact {
+    margin-bottom: 1rem;
+    &-item {
+      margin-left: 0.5rem;
+      background: var(--color-btn-bg);
+      border: none;
+      padding: 0.25rem 0.5rem;
+      border-radius: 4px;
+      cursor: pointer;
+      font-size: 0.9rem;
+      display: inline-flex;
+
+      &:hover {
+        background: var(--color-btn-hover);
+      }
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .country {
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+}
