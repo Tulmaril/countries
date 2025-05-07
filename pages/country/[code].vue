@@ -28,7 +28,6 @@
 
 <script setup lang="ts">
 import { useHistoryStore } from '@/stores/history'
-import { useRoute } from 'vue-router'
 
 const history = useHistoryStore()
 const route = useRoute()
